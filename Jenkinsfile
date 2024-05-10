@@ -10,7 +10,7 @@ pipeline {
         stage('Clone') {
             steps {
                 timeout(time: 2, unit: 'MINUTES'){
-                    git branch: 'main', credentialsId: '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', url: 'https://github.com/dmamanipar/SysEventos2.git'
+                    git branch: 'main', credentialsId: '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', url: 'https://github.com/Alex-C11/Recursos.git'
                 }
             }
         }
