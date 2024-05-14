@@ -10,7 +10,7 @@ pipeline {
         stage('Clone') {
             steps {
                 timeout(time: 2, unit: 'MINUTES'){
-                    git branch: 'main', credentialsId: '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', url: 'https://github.com/Alex-C11/Recursos.git'
+                    git branch: 'main', credentialsId: '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', url: 'https://github.com/Alex-C11/Recursos.git'
                 }
             }
         }
