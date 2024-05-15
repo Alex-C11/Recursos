@@ -10,7 +10,7 @@ pipeline {
         stage('Clone') {
             steps {
                 timeout(time: 2, unit: 'MINUTES'){
-                    git branch: 'main', credentialsId: '', url: 'https://github.com/dmamanipar/ProyectosTS.git'
+                    git branch: 'main', credentialsId: '', url: 'https://github.com/Alex-C11/Recursos.git'
                 }
             }
         }
